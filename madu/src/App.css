@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  width: 100vw;
+   
+   
+}
+
+.rowPosters{
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: 200px;
+   margin-left: 5%;
+   border: 1px solid black;
+   border-radius: 20px;
+  
+}
+.rowPosters::-webkit-scrollbar{
+     display:none;
+}
+ .rowPosters{
+   object-fit: contain;
+   width: 90%;
+   max-height: 500px;
+   margin-right: 10px;
+   transition: transform 450ms;
+    
+   
+ }
+ .rowPoster:hover{
+   transform: scale(1.08);
+ }
+ .header{
+   width: 200px;
+   height: 500px;
+   border: 1px solid black;
+   height: 100%;margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   background-color: rgb(65, 230, 230);
+   color: black;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .buttons{
+   margin: 10px;
+ }
+ .overButtons{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: 5%;
+   margin-right: 5%;
+ 
+ }
